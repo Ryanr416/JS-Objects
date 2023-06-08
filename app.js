@@ -125,4 +125,4 @@ album7.released = talkingHeadsAlbums[5];
 
 let albumIdx = 4;
 
-
+albumDetails.albumIdx = album.details
