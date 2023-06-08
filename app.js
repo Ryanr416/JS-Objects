@@ -42,7 +42,7 @@ const album3 = {
 
 // Exercise 3: Accessing the string 'LP' from album2's formats array, add it to the end of album3's formats array.
 
-
+album2.formats[0].push('LP') 
 
 
 // Exercise 4:  Update the released property of album3 from a string into a Date object using that string
@@ -74,7 +74,7 @@ const album5 = {
 
 // Exercise 6:  Update the value 'emi' within album5's labels array to 'EMI'
 
-
+album5.albumDetails.labels[1] = 'EMI'
 
 
 const album6 = {
@@ -88,7 +88,7 @@ const album6 = {
 
 // Exercise 7:  Assign album6's formats array to a variable named formats
 
-
+const formats = album6.formats;
 
 
 const album7 = {
@@ -112,11 +112,12 @@ const talkingHeadsAlbums = [
 
 // Exercise 8:  Using the talkingHeadsAlbums array, assign album5's labels property to a variable named labels
 
-
+const labels = talkingHeadsAlbums[4].labels
 
 
 // Exercise 9:  Using the talkingHeadsAlbums array, assign album7's released property to album6's released property
 
+album7.released = talkingHeadsAlbums[6];
 
 
 
