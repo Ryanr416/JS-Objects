@@ -5,14 +5,19 @@ const album1 = {
     label: 'Sire',
     formats: ['LP']
   }
+  
 };
+
 
 // Exercise 1:  Update the title property of album1 from 'Talking Heads' to 'Talking Heads - 77', then assign that property to a variable named title
 
-
+album1.title = 'Talking Heads - 77';
+  let title = album1.title;
 
 
 // Exercise 2: Assign the string 'Sire' from album1 to a variable named label
+
+const label = album1.albumDetails.label'
 
 
 
@@ -42,7 +47,7 @@ const album3 = {
 
 // Exercise 4:  Update the released property of album3 from a string into a Date object using that string
 
-
+album3.released = new Date(album3.released);
 
 
 const album4 = {
@@ -54,7 +59,7 @@ const album4 = {
 };
 
 // Exercise 5:  Add a property named label with the value 'Sire' to album4's albumDetails property
-
+album4.albumDetails.label = 'Sire';
 
 
 
